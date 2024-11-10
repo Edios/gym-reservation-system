@@ -1,0 +1,6 @@
+[submodule "gym-reservation-client"]
+	path = gym-reservation-client
+	url = .\\gym-reservation-client\\
+[submodule "gym-reservation-server"]
+	path = gym-reservation-server
+	url = .\\gym-reservation-server\\
