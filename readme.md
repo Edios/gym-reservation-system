@@ -14,6 +14,7 @@ A complete gym reservation system that allows users to view available classes, s
 -----------------
 ## Project Structure
 gym-reservation-system/
+
 ├── gym-revertation-server/          # Backend submodule (API and database)  
 ├── gym-revertation-client/         # Frontend submodule (React app for user interface)  
 ├── .gitmodules       # Configuration file for Git submodules  
