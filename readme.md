@@ -64,15 +64,14 @@ Create .env file with address to your backend
 ```
 REACT_APP_API_URL=http://localhost:5000/api
 ```
-5. Running the Application
-------------------------
+5. **Running the Application**
 
-### Navigate to the `gym-revertation-server` and start server:
+Navigate to the `gym-revertation-server` and start server:
 ```
 cd gym-revertation-server
 npm start
 ```
-### Navigate to the `gym-revertation-client` and start server:
+Navigate to the `gym-revertation-client` and start server:
 ```
 cd gym-revertation-client
 npm start
