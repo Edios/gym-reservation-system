@@ -1,10 +1,6 @@
 [submodule "gym-reservation-client"]
 	path = gym-reservation-client
-	url = .\\gym-reservation-client\\
+	url = https://github.com/Edios/gym-reservation-client
 [submodule "gym-reservation-server"]
 	path = gym-reservation-server
-	url = .\\gym-reservation-server\\
-[submodule ".\\gym-reservation-client\\"]
-	url = https://github.com/Edios/gym-reservation-client
-[submodule ".\\gym-reservation-server\\"]
 	url = https://github.com/Edios/gym-reservation-server
