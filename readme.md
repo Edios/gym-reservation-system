@@ -1,7 +1,7 @@
 # Gym Reservation System
 A complete gym reservation system that allows users to view available classes, sign up or cancel class reservations, and manage their gym activities through a calendar interface. This project is divided into two main parts:
 
-- **Cient (Frontend)**: Built with React and Tailwind CSS.
+- **Client (Frontend)**: Built with React and Tailwind CSS.
 - **Server (Backend)**: Built with Node.js, Express, and MongoDB for API services and user authentication.
 
 -----------------
