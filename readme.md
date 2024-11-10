@@ -4,24 +4,23 @@ A complete gym reservation system that allows users to view available classes, s
 - **Cient (Frontend)**: Built with React and Tailwind CSS.
 - **Server (Backend)**: Built with Node.js, Express, and MongoDB for API services and user authentication.
 
-
+-----------------
 ## Features
---------
 - **User Authentication**: Simple login system to manage registered accounts.
 - **Calendar View**: Displays available gym classes in a calendar format.
 - **Class Details**: View details for each class, including the coach, location, and available seats.
 - **Reservations**: Sign up or cancel reservations for gym classes. The class entry updates automatically in the calendar view.
 
-## Project Structure
 -----------------
+## Project Structure
 gym-reservation-system/
 ├── gym-revertation-server/          # Backend submodule (API and database)  
 ├── gym-revertation-client/         # Frontend submodule (React app for user interface)  
 ├── .gitmodules       # Configuration file for Git submodules  
 └── README.md         # Project documentation  
 
+-----------------
 ## Installation
-------------
 1. **Clone the Repository**  
 Clone the main repository, including both frontend and backend submodules:
 ```
@@ -46,12 +45,10 @@ cd gym-revertation-client
 npm install
 ```
 3. **Setup mongo db server**
----------------------
 Run local mongo server or use already existing one
 For more details about running self hosted db visit this tutorial: https://www.mongodb.com/docs/manual/tutorial/manage-mongodb-processes/
 
 4. **Setup Environment Variables*
----------------------
 Each part of the project requires environment variables. Create `.env` files in both `gym-revertation-server` and `gym-revertation-client` directories.
 
 ### Backend gym-revertation-server `.env` File
