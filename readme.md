@@ -15,8 +15,8 @@ A complete gym reservation system that allows users to view available classes, s
 ## Project Structure
 gym-reservation-system/
 
-├── gym-revertation-server/          # Backend submodule (API and database)  
-├── gym-revertation-client/         # Frontend submodule (React app for user interface)  
+├── gym-reservation-server/          # Backend submodule (API and database)  
+├── gym-reservation-client/         # Frontend submodule (React app for user interface)  
 ├── .gitmodules       # Configuration file for Git submodules  
 └── README.md         # Project documentation  
 
@@ -34,15 +34,15 @@ git submodule update
 ```
 2. **Install Dependencies**
 ### Backend  
-Navigate to the `gym-revertation-server` directory and install dependencies:
+Navigate to the `gym-reservation-server` directory and install dependencies:
 ```
-cd gym-revertation-server
+cd gym-reservation-server
 npm install
 ```
 ### Frontend  
-Navigate to the `gym-revertation-client` directory and install dependencies:
+Navigate to the `gym-reservation-client` directory and install dependencies:
 ```
-cd gym-revertation-client
+cd gym-reservation-client
 npm install
 ```
 3. **Setup mongo db server**
@@ -50,29 +50,29 @@ Run local mongo server or use already existing one
 For more details about running self hosted db visit this tutorial: https://www.mongodb.com/docs/manual/tutorial/manage-mongodb-processes/
 
 4. **Setup Environment Variables*
-Each part of the project requires environment variables. Create `.env` files in both `gym-revertation-server` and `gym-revertation-client` directories.
+Each part of the project requires environment variables. Create `.env` files in both `gym-reservation-server` and `gym-reservation-client` directories.
 
-### Backend gym-revertation-server `.env` File
+### Backend gym-reservation-server `.env` File
 JWT Secret can be generated here: https://jwtsecret.com/generate
 ```
 MONGO_URI=<your_mongodb_connection_string> 
 JWT_SECRET=<your_jwt_secret> 
 PORT=5000
 ```
-### Frontend gym-revertation-client `.env` File
+### Frontend gym-reservation-client `.env` File
 Create .env file with address to your backend
 ```
 REACT_APP_API_URL=http://localhost:5000/api
 ```
 5. **Running the Application**
 
-Navigate to the `gym-revertation-server` and start server:
+Navigate to the `gym-reservation-server` and start server:
 ```
-cd gym-revertation-server
+cd gym-reservation-server
 npm start
 ```
-Navigate to the `gym-revertation-client` and start server:
+Navigate to the `gym-reservation-client` and start server:
 ```
-cd gym-revertation-client
+cd gym-reservation-client
 npm start
 ```
